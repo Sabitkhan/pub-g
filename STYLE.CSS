@@ -1,0 +1,98 @@
+body{
+    background-image: url("c.jpg");
+
+    height: 400px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+.title{
+/* background-color: #000; */
+z-index: 1;
+}
+.navbar{
+    font-family: "montesrrat-black";
+    font-size: 1.5rem;
+}
+.navbar-brand{
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+h1{
+    padding: 10%;
+    font-family: "montesrrat-black";
+    color: #fff;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.headerimage{
+    padding: 3%;
+    border-radius: 300px;
+}
+h3{
+    padding-left: 20%;
+    font-style: italic;
+    color: #fff;
+}
+
+.detail{
+    padding: 7% 15%;
+    font-size: 2.5rem;
+    /* background-color: #2C3639; */
+}
+p{
+    /* color: #fff; */
+    line-height: 1;
+    font-family: "montesrrat-bold";
+}
+.new{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+
+}
+.corsel{
+    padding: 7% 15%;
+    background-color: #000;
+}
+.btn{
+    width: 200px;
+}    
+.email{
+    color: #000;
+/* text-align: center; */
+padding: 1%;
+font-family: "merriweather";
+}
+#footer{
+    padding: 5%;
+    text-align: center;
+}
+.social-icon{
+    padding: 0.5%;
+    
+}
+.social-icon:hover{
+    color: green;
+}
+
+@media (max-width:995px) {
+    h3{
+        width: 70%;
+    }
+    .title{
+        text-align: center;
+    }
+    .headerimage{
+        position: static;
+        text-align: center;
+    }
+    .btn{
+height: 43px;
+        width: 160px;
+    }    
+    
+}
+
